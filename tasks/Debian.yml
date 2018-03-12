@@ -1,7 +1,8 @@
 ---
 - name: Import the APT repo key (Debian)
   apt_key:
-    url: "{{ repo_key_url }}"
+    keyserver: "{{ apt_key_server }}"
+    id: "{{ apt_key_id }}"
 
 - name: Create the APT repository (Debian)
   apt_repository:
