@@ -8,6 +8,7 @@ This role installs the Microsoft Azure CLI for Linux.
 None.  
 
 ## Role Variables 
+Sane and opinionated defaults have been provided for creating YUM and APT repositories. See `defaults/main.yml` for more information.
 
 ## Dependencies
 
